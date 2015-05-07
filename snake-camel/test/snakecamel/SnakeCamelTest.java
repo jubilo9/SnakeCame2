@@ -16,8 +16,8 @@ public class SnakeCamelTest {
 	@Test
 	public void camelToSnakecaseTest() {
 		SnakeCamelUtil suc = new SnakeCamelUtil();
-		String expected = "abc_d";
-		String actual = suc.camelToSnakecase("AbcD");
+		String expected = "abc_def_gh";
+		String actual = suc.camelToSnakecase("AbcDefGh");
 		assertEquals(actual,expected);
 	}
 	@Test
